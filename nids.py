@@ -1,9 +1,13 @@
 import streamlit as st
 import requests
 import pandas as pd
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-API_KEY = "your key"
-DEPLOYMENT_URL = https://your_ibm_endpoint_here
+API_KEY = os.getenv("API_KEY")
+DEPLOYMENT_URL = os.getenv("DEPLOYMENT_URL")
+
 
 def get_token(api_key):
     response = requests.post(
