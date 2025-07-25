@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 
-API_KEY = "31NlE0ypCjXV5NW0zGJmNsQSPFYKfmGYhWWOY41EpfCA"
+API_KEY = "your key"
 DEPLOYMENT_URL = "https://au-syd.ml.cloud.ibm.com/ml/v4/deployments/b587dbb8-6e13-48fb-8a2e-176cffcdd054/predictions?version=2021-05-01"
 
 def get_token(api_key):
