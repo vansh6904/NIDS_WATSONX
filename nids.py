@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 import pandas as pd
 
-API_KEY = "31NlE0ypCjXV5NW0zGJmNsQSPFYKfmGYhWWOY41EpfCA"
-DEPLOYMENT_URL = "https://au-syd.ml.cloud.ibm.com/ml/v4/deployments/2f7e90b9-b3f6-4a2d-8635-ba3d37969f59/predictions?version=2021-05-01"
+API_KEY = ""
+DEPLOYMENT_URL = ""
 
 def get_token(api_key):
     response = requests.post(
@@ -80,3 +80,4 @@ if st.button("Predict"):
     except Exception as e:
         st.error(f"❌ Prediction failed: {e}")
         st.json(result)  # optional: show raw response
+
