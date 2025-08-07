@@ -1,3 +1,4 @@
+(I HAVE ADDED AN ADDITIONAL PYTHON FILE FOR FRONTEND USING STREAMLIT (WHICH CANNOT BE DONE IN JUPYTER NOTEBOOK)
 # 🛡️ Network Intrusion Detection System (NIDS) using Machine Learning
 
 This project presents a Machine Learning-based Network Intrusion Detection System (NIDS) that classifies network traffic as either normal or a type of intrusion. It leverages the Random Forest algorithm and is deployed using IBM Cloud tools for scalable model development and deployment.
